@@ -15,6 +15,7 @@
 
 input {
   width: inherit;
+  height: -webkit-fill-available;
   padding: 2px 6px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
