@@ -1,7 +1,7 @@
 function search() {
-  var t = document.getElementById("search").value;
-  t = "https://www.youtube.com/results?search_query=" + t;
-  window.location.href = t;
+  let query = document.getElementById("search").value;
+  query = "https://www.youtube.com/results?search_query=" + query;
+  window.location.href = query;
 };
 
 document.addEventListener('keydown', function (evt) {
