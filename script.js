@@ -1,4 +1,4 @@
-function search() {
+function search () {
   let query = document.getElementById("search").value;
   query = "https://www.youtube.com/results?search_query=" + query;
   window.location.href = query;
