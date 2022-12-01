@@ -11,8 +11,11 @@ body {
 }
 
 header {
-  padding: 6px;
   position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  width: -webkit-fill-available;
+  padding: 16px;
 }
 
 main {
@@ -69,7 +72,14 @@ input:focus, .dark-theme input:focus {
   box-shadow: 0 1px 0 rgb(0, 0, 0, 0.1);
 }
 
-.search-icon {
+.theme-button {
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.search-icon, .theme-icon {
   display: inline-flex;
   width: 24px;
   height: 24px;
