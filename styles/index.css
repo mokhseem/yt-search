@@ -1,33 +1,3 @@
-:root {
-  --general-background: #ffffff;
-  --searchbox-background: #ffffff;
-  --border-color: #cccccc;
-  --border-shadow-color: #eeeeee;
-  --text-color: #111111;
-  --button-icon-color: #030303;
-  --button-color: #f8f8f8;
-  --button-border-color: #d3d3d3;
-  --button-hover-color: #f0f0f0;
-  --button-hover-border-color: #c6c6c6;
-  --button-focus-color: #e9e9e9;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --general-background: #202020;
-    --searchbox-background: #121212;
-    --border-color: #303030;
-    --border-shadow-color: transparent;
-    --text-color: #e2e2e2;
-    --button-icon-color: #ffffff;
-    --button-color: #313131;
-    --button-border-color: #303030;
-    --button-hover-color: var(--button-color);
-    --button-hover-border-color: var(--button-border-color);
-    --button-focus-color: var(--button-color);
-  }
-}
-
 .page,
 .page__body {
   height: 100%;

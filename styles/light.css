@@ -1,0 +1,13 @@
+:root {
+  --general-background: #ffffff;
+  --searchbox-background: #ffffff;
+  --border-color: #cccccc;
+  --border-shadow-color: #eeeeee;
+  --text-color: #111111;
+  --button-icon-color: #030303;
+  --button-color: #f8f8f8;
+  --button-border-color: #d3d3d3;
+  --button-hover-color: #f0f0f0;
+  --button-hover-border-color: #c6c6c6;
+  --button-focus-color: #e9e9e9;
+}

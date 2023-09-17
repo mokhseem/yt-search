@@ -1,0 +1,13 @@
+:root {
+  --general-background: #202020;
+  --searchbox-background: #121212;
+  --border-color: #303030;
+  --border-shadow-color: transparent;
+  --text-color: #e2e2e2;
+  --button-icon-color: #ffffff;
+  --button-color: #313131;
+  --button-border-color: #303030;
+  --button-hover-color: var(--button-color);
+  --button-hover-border-color: var(--button-border-color);
+  --button-focus-color: var(--button-color);
+}
